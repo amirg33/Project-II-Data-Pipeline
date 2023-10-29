@@ -8,7 +8,7 @@ Dataset: List of restaurants in major cities worldwide with cuisine types.
 
 API: climate data for those cities
 
-Compare if there is a correlation between cuisine types and weather.
+## Compare if there is a correlation between cuisine types and weather
 
 How does the diversity of cuisines relate to the climate of a city?
 
