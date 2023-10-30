@@ -7,7 +7,7 @@ import re
 #from geopy.point import Point
 from cProfile import label
 def clean_csv():
-    df = pd.read_csv("../Project-II-Data-Pipeline/Data/michelin_my_maps.csv",sep=',' ,encoding= 'utf-8')
+    df = pd.read_csv("../Project-II-Data-Pipeline/Data/Unprocessed_data/michelin_my_maps.csv",sep=',' ,encoding= 'utf-8')
     df.drop(columns=["Url","WebsiteUrl","PhoneNumber"], inplace=True)
     df['Combined'] = df['Latitude'].astype(str) + ', ' + df['Longitude'].astype(str)
     df.drop(columns=["Longitude","Latitude","Address"], inplace=True)
