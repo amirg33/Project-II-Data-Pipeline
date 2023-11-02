@@ -15,4 +15,4 @@ def webscraping_data():
     df_country_oceania = pd.read_html(url)[4]
     df_country_oceania.to_csv("Data/Unprocessed_data/Weather_continent/df_country_oceania.csv", index=False)
     df_country_south_america = pd.read_html(url)[5]
-    df1 = df_country_south_america.to_csv("Data/Unprocessed_data/Weather_continent/df_country_south_america.csv", index=False)
+    df_country_south_america.to_csv("Data/Unprocessed_data/Weather_continent/df_country_south_america.csv", index=False)
